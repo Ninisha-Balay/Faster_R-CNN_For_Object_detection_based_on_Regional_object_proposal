@@ -9,29 +9,45 @@ This project implements an advanced object detection system utilizing the Faster
 # Features
 
 •	Detect multiple objects in images with high accuracy.
+
 •	Draw bounding boxes and label detected objects.
+
 •	Use pretrained models for quick setup.
+
 •	Adjustable detection confidence threshold.
+
 •	Visualization with customizable box and text styles.
+
 # Environment Setup
 
 # Requirements
 
 •	Python 3.7+
+
 •	PyTorch >= 1.12
+
 •	Torchvision >= 0.13
+
 •	Pillow
+
 •	OpenCV (cv2)
+
 •	Matplotlib
+
 •	NumPy
 
 # Installation
 
 bash
+
 pip install -r requirements.txt
+
 requirements.txt
+
 torch>=1.12.0
+
 torchvision>=0.13.0
+
 pillow>=9.2.0
 numpy>=1.20.0
 opencv-python>=4.5.0
