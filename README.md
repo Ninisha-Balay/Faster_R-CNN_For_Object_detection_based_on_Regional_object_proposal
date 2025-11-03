@@ -49,8 +49,11 @@ torch>=1.12.0
 torchvision>=0.13.0
 
 pillow>=9.2.0
+
 numpy>=1.20.0
+
 opencv-python>=4.5.0
+
 matplotlib>=3.2.0
 
 # Usage Instructions
@@ -61,30 +64,43 @@ bash
 python object_detection.py
 4.	The detection results will show images with overlaid bounding boxes, labels, and confidence scores.
    
-# Example
+# Example code snippet
 python
+
 object_detection_api('images/example.jpg', threshold=0.8)
 
 # Customization options
+
 •	threshold: Minimum confidence to consider detection
+
 •	rect_th: Thickness of bounding box lines
+
 •	text_th: Thickness of label text
+
 •	text_size: Font size of labels
 
 # Model Details
 •	Model used: torchvision.models.detection.fasterrcnn_resnet50_fpn
+
 •	Trained on COCO dataset with 80 categories
+
 •	Detects objects using a Region Proposal Network (RPN) integrated with Faster R-CNN for speed and accuracy
 
 # References
 •	Official PyTorch TorchVision detection tutorial
+
 •	Faster R-CNN original paper
+
 •	COCO dataset documentation
+
 •	Project report for detailed methodology and results
 
 # Future Scope
 •	Extend to real-time video detection.
+
 •	Fine-tune on custom datasets.
+
 •	Deploy as a production solution.
+
 •	Improve detection speed and accuracy.
 
