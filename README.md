@@ -1,6 +1,7 @@
 # Faster_R-CNN_For_Object_detection_based_on_Regional_object_proposal
 
 # Overview
+
     This project implements an advanced object detection system utilizing the Faster R-CNN model with a ResNet-50 FPN backbone. It leverages PyTorch and Torchvision libraries to identify, localize, and label multiple objects within images efficiently.
 # Purpose
   The primary goal is to demonstrate a capable, fast, and customizable object detection pipeline suitable for various applications like surveillance, autonomous vehicles, and robotics.
